@@ -4,7 +4,7 @@ import bottomRight from '../assets/webp/salvation-4.webp';
 
 export default function Roadmap() {
   return (
-    <section className={style.section}>
+    <section id="roadmap" className={style.section}>
       <img src={leftTop} alt="Solvation" />
       <div className={style.title}>Roadmap</div>
       <ul className="container">
