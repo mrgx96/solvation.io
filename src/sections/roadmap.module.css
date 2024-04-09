@@ -1,0 +1,90 @@
+.section {
+  background-color: #0d0d0f;
+  padding: 98px 0 140px 0;
+  position: relative;
+}
+
+.section > img:first-child {
+  position: absolute;
+  top: 66px;
+  left: 21px;
+}
+
+.section > img:last-child {
+  position: absolute;
+  right: 65px;
+  bottom: 173px;
+}
+
+.title {
+  font-family: Syne;
+  font-size: 76px;
+  font-weight: bold;
+  color: white;
+  line-height: 94px;
+  text-align: center;
+  padding-bottom: 126px;
+}
+
+.section > ul {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  list-style: none;
+  padding-inline-start: 0;
+  align-items: flex-end;
+  padding-bottom: 354px;
+}
+
+.section > ul::before {
+  content: url(../assets/load-line.svg);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-34px);
+}
+
+.section > ul > li {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: center;
+  position: relative;
+}
+
+.section > ul > li::after {
+  content: url(../assets/road-bullet.svg);
+}
+
+.section > ul > li > div {
+  padding-bottom: 45px;
+}
+
+.section > ul > li > div > strong {
+  display: block;
+  font-family: Syne;
+  font-size: 46px;
+  font-weight: bold;
+  color: #876cff;
+  line-height: 40px;
+  padding-bottom: 30px;
+}
+
+.section > ul > li > div > p {
+  display: block;
+  font-family: Syne;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  line-height: 40px;
+  padding-bottom: 11px;
+  margin: 0;
+}
+
+.section > ul > li:nth-child(even) > div {
+  position: absolute;
+  bottom: 0;
+  padding: 45px 0 0;
+  transform: translateY(100%);
+}

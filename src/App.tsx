@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './sections/Home';
 import Presale from './sections/Presale';
+import Roadmap from './sections/Roadmap';
 import Supply from './sections/Supply';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Home />
       <Presale />
       <Supply />
+      <Roadmap />
     </main>
   );
 }
