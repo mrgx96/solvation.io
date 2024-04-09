@@ -10,12 +10,12 @@ export default function Contact() {
         <div className={style.title}>Contact Us</div>
         <ul>
           <li>
-            <a href="#">
+            <a target="_blank" href="https://t.me/solvationcoin">
               <img src={telegram} alt="Telegram" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a target="_blank" href="https://twitter.com/SolvationCoin">
               <img src={twitter} alt="twitter" />
             </a>
           </li>
