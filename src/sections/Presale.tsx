@@ -5,7 +5,7 @@ import style from './presale.module.css';
 
 export default function Presale() {
   return (
-    <section className={style.section}>
+    <section id="presale" className={style.section}>
       <div className={style.title}>Presale is Live</div>
       <div className={style.description}>
         When your SOL is tired of all the financial burdens, you must seek Solvation
