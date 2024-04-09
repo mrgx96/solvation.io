@@ -78,7 +78,7 @@
   transform: translateX(100%) translateY(-50%);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1300px) {
   .section::before,
   .section::after {
     width: 20px;
@@ -91,7 +91,9 @@
   .section::after {
     border-radius: 20px 0 0 20px;
   }
+}
 
+@media only screen and (max-width: 1024px) {
   .section > img {
     position: relative;
     bottom: unset;

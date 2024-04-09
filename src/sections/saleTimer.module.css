@@ -4,6 +4,8 @@
   justify-content: space-between;
   padding-top: 125px;
   padding-bottom: 135px;
+  gap: 60px;
+  align-items: center;
 }
 
 .title {
@@ -59,9 +61,25 @@
   white-space: nowrap !important;
 }
 
+@media only screen and (max-width: 1300px) {
+  .section {
+    gap: 0;
+  }
+
+  .timer {
+    gap: 40px;
+  }
+
+  .timer > li {
+    width: 100px;
+    height: 160px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .section {
     flex-direction: column;
+    gap: 0;
   }
 
   .title {
@@ -79,5 +97,12 @@
 
   .timer > li > span:last-child {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .timer > li {
+    width: 80px;
+    height: 160px;
   }
 }

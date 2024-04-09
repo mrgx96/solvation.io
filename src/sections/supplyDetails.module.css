@@ -49,6 +49,16 @@
   border-left: 1px dashed #876cff;
 }
 
+@media only screen and (max-width: 1300px) {
+  .pieChart > img {
+    width: 50%;
+  }
+
+  .section > ul > li {
+    padding: 30px 10px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .section > ul {
     flex-direction: column;

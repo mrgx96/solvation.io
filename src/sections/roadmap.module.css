@@ -91,6 +91,18 @@
   transform: translateY(100%);
 }
 
+@media only screen and (max-width: 1300px) {
+  .section > ul > li > div > strong {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .section > ul > li > div > p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .section > img:first-child,
   .section > img:last-child {
@@ -112,16 +124,6 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 254px;
-  }
-
-  .section > ul > li > div > strong {
-    font-size: 40px;
-    line-height: 30px;
-  }
-
-  .section > ul > li > div > p {
-    font-size: 20px;
-    line-height: 30px;
   }
 }
 
