@@ -1,0 +1,25 @@
+.section {
+  position: relative;
+  padding-top: 78px;
+}
+
+.title {
+  font-family: Syne;
+  font-weight: bold;
+  font-size: 96px;
+  letter-spacing: -1px;
+  line-height: 94px;
+  color: white;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.totalSupply {
+  font-family: Syne;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  padding-bottom: 108px;
+}
