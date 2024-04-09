@@ -25,7 +25,7 @@ export default function Roadmap() {
         <li>
           <div>
             <strong>Phase 3</strong>
-            <p>Memes & Airdrops</p>
+            <p>Memes &amp; Airdrops</p>
             <p>CEX Listings</p>
           </div>
         </li>

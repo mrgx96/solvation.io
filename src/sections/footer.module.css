@@ -1,0 +1,10 @@
+.section {
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 22px 0 32px;
+}
