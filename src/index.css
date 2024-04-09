@@ -13,3 +13,7 @@ body {
   margin: 0;
   background-color: #282830;
 }
+
+.no-scrolls {
+  overflow: hidden !important;
+}
