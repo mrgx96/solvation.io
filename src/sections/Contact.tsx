@@ -21,7 +21,7 @@ export default function Contact() {
           </li>
         </ul>
         <div className={style.solvation}>
-          <img src={solvation} alt="Solvation" />
+          <img src={solvation} alt="Solvation" width="167" />
         </div>
       </section>
       <div className={style.description}>

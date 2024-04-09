@@ -35,11 +35,11 @@
 .solvation {
   position: absolute;
   background: #282830;
-  border-radius: 36px;
-  padding: 24px 36px;
+  border-radius: 100%;
+  padding: 10px;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 47px;
+  margin-top: 37px;
 }
 
 .description {
