@@ -34,9 +34,11 @@
   padding-inline-start: 0;
   align-items: flex-end;
   padding-bottom: 354px;
+  overflow: hidden;
 }
 
 .section > ul::before {
+  display: block;
   content: url(../assets/load-line.svg);
   position: absolute;
   left: 50%;
@@ -87,4 +89,50 @@
   bottom: 0;
   padding: 45px 0 0;
   transform: translateY(100%);
+}
+
+@media only screen and (max-width: 1024px) {
+  .section > img:first-child,
+  .section > img:last-child {
+    display: block;
+    bottom: unset;
+    left: unset;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    right: unset;
+    top: unset;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .section > ul {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 254px;
+  }
+
+  .section > ul > li > div > strong {
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .section > ul > li > div > p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section > ul > li > div > strong {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .section > ul > li > div > p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

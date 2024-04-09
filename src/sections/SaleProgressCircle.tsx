@@ -11,7 +11,7 @@ export default function SaleProgressCircle({ progress, circleWidth }: { progress
   const mobileCircleWidth = smallerDimension * 0.9;
 
   return (
-    <div className="progress-circle">
+    <div className={style.progressCircleContainer}>
       <svg
         width={vw < 768 ? mobileCircleWidth : circleWidth}
         height={vw < 768 ? mobileCircleWidth : circleWidth}
