@@ -40,7 +40,7 @@ export default function Home(props: { onOpenModal: Function }) {
         </li>
         <li>
           <a href="#" onClick={() => onOpenModal()}>
-            <img src={jupiter} alt="Jupiter" /> Jupiter
+            <img src={jupiter} alt="Jupiter" /> Buy $SOLV
           </a>
         </li>
       </ul>
