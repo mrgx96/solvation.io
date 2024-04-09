@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './sections/Contact';
 import Home from './sections/Home';
 import Presale from './sections/Presale';
 import Roadmap from './sections/Roadmap';
@@ -11,6 +12,7 @@ function App() {
       <Presale />
       <Supply />
       <Roadmap />
+      <Contact />
     </main>
   );
 }
