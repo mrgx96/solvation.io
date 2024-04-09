@@ -27,7 +27,7 @@
   border-radius: 150px 0 0 150px;
 }
 
-.section img {
+.section > img {
   position: absolute;
   bottom: 62px;
   right: 0;
@@ -76,4 +76,30 @@
   position: absolute;
   right: -40px;
   transform: translateX(100%) translateY(-50%);
+}
+
+@media only screen and (max-width: 1600px) {
+  .section::before,
+  .section::after {
+    width: 20px;
+  }
+
+  .section::before {
+    border-radius: 0 20px 20px 0;
+  }
+
+  .section::after {
+    border-radius: 20px 0 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section > img {
+    position: relative;
+    bottom: unset;
+    right: unset;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
 }

@@ -3,3 +3,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 1024px) {
+  .section {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
