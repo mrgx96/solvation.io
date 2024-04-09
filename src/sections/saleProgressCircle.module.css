@@ -13,3 +13,13 @@
   fill: none;
   stroke: #282830;
 }
+
+@media only screen and (max-width: 1024px) {
+  .progressCircleContainer {
+    width: 100%;
+  }
+
+  .progressCircleContainer svg {
+    width: 100%;
+  }
+}

@@ -10,11 +10,11 @@ export default function Presale() {
       <div className={style.description}>
         When your SOL is tired of all the financial burdens, you must seek Solvation
       </div>
-      <img src={salvation} alt="Salvation" />
       <div className="container">
         <SaleTimer />
         <SaleProgress />
       </div>
+      <img src={salvation} alt="Salvation" />
     </section>
   );
 }
