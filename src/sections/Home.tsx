@@ -2,7 +2,8 @@ import style from './home.module.css';
 import coins from '../assets/webp/coins.webp';
 import jupiter from '../assets/jupiter-logo-1.svg';
 
-export default function Home() {
+export default function Home(props: { onOpenModal: Function }) {
+  const { onOpenModal } = props;
   return (
     <section className={style.section}>
       <img src={coins} alt="Coins" />
@@ -17,7 +18,7 @@ export default function Home() {
           <a href="#roadmap">Roadmap</a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" onClick={() => onOpenModal()}>
             <img src={jupiter} alt="Jupiter" /> Jupiter
           </a>
         </li>
