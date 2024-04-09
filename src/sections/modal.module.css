@@ -95,3 +95,17 @@
   text-align: center;
   color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .address {
+    display: block;
+    max-width: 90% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 75px;
+  }
+
+  .description {
+    padding: 0 50px 50px;
+  }
+}
