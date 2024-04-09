@@ -1,0 +1,79 @@
+.section {
+  background: #0d0d0f;
+  overflow: hidden;
+  position: relative;
+}
+
+.section::before,
+.section::after {
+  display: block;
+  content: '';
+  width: 150px;
+  height: 750px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.section::before {
+  background-color: #14f195;
+  left: 0;
+  border-radius: 0 150px 150px 0;
+}
+
+.section::after {
+  background-color: #876cff;
+  right: 0;
+  border-radius: 150px 0 0 150px;
+}
+
+.section img {
+  position: absolute;
+  bottom: 62px;
+  right: 0;
+  z-index: +1;
+}
+
+.title {
+  display: block;
+  font-family: Syne;
+  font-weight: bold;
+  font-size: 96px;
+  color: white;
+  text-align: center;
+  letter-spacing: -1px;
+  padding-bottom: 42px;
+}
+
+.description {
+  display: block;
+  font-family: Syne;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  max-width: 840px;
+  margin: 0 auto;
+  overflow: visible;
+  position: relative;
+}
+
+.description::before,
+.description::after {
+  content: url(../assets/webp/solana-sol-logo-2.webp);
+  top: 50%;
+  line-height: 0;
+}
+
+.description::before {
+  position: absolute;
+  left: -40px;
+  transform: translateX(-100%) translateY(-50%);
+}
+
+.description::after {
+  position: absolute;
+  right: -40px;
+  transform: translateX(100%) translateY(-50%);
+}

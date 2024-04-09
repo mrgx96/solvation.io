@@ -1,0 +1,49 @@
+.title {
+  font-family: Syne;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: -1px;
+  line-height: 94px;
+  color: #14f195;
+  padding-bottom: 20px;
+}
+
+.section {
+  position: relative;
+  max-width: 660px;
+  padding-bottom: 320px;
+  z-index: +2;
+}
+
+.section > ul {
+  display: block;
+  font-family: Syne;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  padding-inline-start: 50px;
+  list-style: none;
+}
+
+.section > ul > li {
+  white-space: normal;
+  display: block;
+  position: relative;
+}
+
+.section > ul > li::before {
+  display: block;
+  content: url(../assets/bullet.svg);
+  left: -50px;
+  position: absolute;
+}
+
+.section > ul > li > small {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  color: #876cff;
+  padding: 13px 0 42px 0;
+}

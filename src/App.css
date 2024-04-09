@@ -2,3 +2,13 @@
   font-family: Syne;
   src: url(./assets/fonts/syne.ttf);
 }
+
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/fonts/poppins-bold.ttf);
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}

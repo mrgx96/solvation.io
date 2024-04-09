@@ -1,0 +1,15 @@
+.progressText {
+  font-family: Poppins;
+  font-size: 80px;
+}
+
+.progressCircle {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.backgroundCircle {
+  fill: none;
+  stroke: #282830;
+}
