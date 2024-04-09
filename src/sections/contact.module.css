@@ -1,0 +1,55 @@
+.section {
+  background-color: #14f195;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 22px 0 115px;
+  position: relative;
+  top: -140px;
+}
+
+.title {
+  font-family: Syne;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 94px;
+  color: #0d0d0f;
+  text-align: center;
+  padding-bottom: 13px;
+}
+
+.section > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 26px;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.section > ul > li,
+.section > ul > li > a {
+  display: block;
+}
+
+.solvation {
+  position: absolute;
+  background: #282830;
+  border-radius: 36px;
+  padding: 24px 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 47px;
+}
+
+.description {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  color: white;
+  text-align: center;
+  padding: 32px 0;
+}
