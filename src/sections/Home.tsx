@@ -39,7 +39,14 @@ export default function Home(props: { onOpenModal: Function }) {
           </a>
         </li>
         <li>
-          <a href="#" onClick={() => onOpenModal()}>
+          <a
+            href="#"
+            onClick={(evt) => {
+              evt.stopPropagation();
+              evt.preventDefault();
+              onOpenModal();
+            }}
+          >
             <img src={jupiter} alt="Jupiter" /> Buy $SOLV
           </a>
         </li>

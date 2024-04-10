@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
+import jupiter from '../assets/jupiter-logo-1.svg';
 import SaleDetails from './SaleDetails';
 import SaleProgressCircle from './SaleProgressCircle';
 import style from './saleProgress.module.css';
 
-export default function SaleProgress() {
+export default function SaleProgress(props: { onOpenModal: Function }) {
+  const { onOpenModal } = props;
   const [progress, setProgress] = useState(0);
   const intervals = 1; // seconds
 
@@ -29,7 +31,19 @@ export default function SaleProgress() {
 
   return (
     <section className={style.section}>
-      <SaleProgressCircle progress={progress} circleWidth={476} />
+      <div className={style.progress}>
+        <SaleProgressCircle progress={progress} circleWidth={476} />
+        <a
+          href="#"
+          onClick={(evt) => {
+            evt.stopPropagation();
+            evt.preventDefault();
+            onOpenModal();
+          }}
+        >
+          <img src={jupiter} alt="Jupiter" /> Buy $SOLV
+        </a>
+      </div>
       <SaleDetails />
     </section>
   );
