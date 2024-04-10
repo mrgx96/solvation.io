@@ -103,4 +103,10 @@
     display: block;
     margin: 0 auto;
   }
+
+  .title {
+    font-size: 76px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
