@@ -6,7 +6,7 @@
 
 .section > img:first-child {
   position: absolute;
-  top: 66px;
+  top: 0;
   left: 21px;
   width: 320px;
 }

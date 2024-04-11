@@ -13,7 +13,7 @@ function App() {
   return (
     <main>
       <Home onOpenModal={() => setModal(true)} />
-      <Presale />
+      <Presale onOpenModal={() => setModal(true)} />
       <Supply />
       <Roadmap />
       <Contact />
