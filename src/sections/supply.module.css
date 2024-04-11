@@ -43,6 +43,14 @@
   z-index: -1;
 }
 
+@media only screen and (max-width: 1600px) {
+  .section > img {
+    width: 350px;
+    left: 10px;
+    top: 10px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .title {
     font-size: 60px;
