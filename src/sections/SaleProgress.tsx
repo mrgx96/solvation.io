@@ -18,6 +18,8 @@ export default function SaleProgress(props: { onOpenModal: Function }) {
       const timeSpan = now - saleDateSince;
       if (timeSpan < 0) {
         setProgress(0);
+      } else if (timeSpan >= totalSpan) {
+        setProgress(100);
       } else {
         setProgress(((timeSpan / totalSpan) * 100) | 0);
       }
