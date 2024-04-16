@@ -10,7 +10,7 @@ export default function Contact() {
         <div className={style.title}>Contact Us</div>
         <ul>
           <li>
-            <a target="_blank" href="https://t.me/solvationcoin">
+            <a target="_blank" href="https://t.me/solvation_coin">
               <img src={telegram} alt="Telegram" />
             </a>
           </li>
