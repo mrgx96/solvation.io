@@ -44,6 +44,7 @@ export default function Modal(props: { show: boolean; onClose: Function }) {
           <div className={style.qrcode}>
             <img src={import.meta.env.VITE_WALLET_QR_CODE.replace(/\n/g, '')} alt="wallet address QR code" />
           </div>
+          <div className={style.postscript}>P.S. Send only SOL or USDT/USDC to the presale address</div>
           <div className={style.description}>
             <strong>How To Buy?</strong>
             <p>Step 1: Buy Solana from any exchange (Coinbase, Binance etc...)</p>

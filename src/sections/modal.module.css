@@ -24,6 +24,17 @@
   box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.75);
 }
 
+.postscript {
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #dbdbdb;
+  padding: 0 30px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
 .title {
   font-family: Syne;
   font-size: 56px;
@@ -74,7 +85,7 @@
   background: url(../assets/qrcode-area.svg) no-repeat center center;
   min-width: 242px;
   min-height: 242px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
