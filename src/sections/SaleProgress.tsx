@@ -14,8 +14,8 @@ export default function SaleProgress(props: { onOpenModal: Function }) {
       const saleDateSince = new Date(import.meta.env.VITE_SALE_DATE_SINCE).getTime();
       const saleDateUntil = new Date(import.meta.env.VITE_SALE_DATE_UNTIL).getTime();
       const now = new Date().getTime();
-      const totalSpan = saleDateUntil - saleDateSince;
-      const timeSpan = now - saleDateSince;
+      const totalSpan = Math.ceil((saleDateUntil - saleDateSince) / 1000);
+      const timeSpan = Math.ceil((now - saleDateSince) / 1000);
       if (timeSpan < 0) {
         setProgress(0);
       } else if (timeSpan >= totalSpan) {
