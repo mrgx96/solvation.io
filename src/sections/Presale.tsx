@@ -6,7 +6,7 @@ import style from './presale.module.css';
 export default function Presale(props: { onOpenModal: Function }) {
   return (
     <section id="presale" className={style.section}>
-      <div className={style.title}>Presale is Live</div>
+      <div className={style.title}>Presale is Concluded!</div>
       <div className={style.description}>
         When your SOL is tired of all the financial burdens, you must seek Solvation
       </div>
