@@ -15,7 +15,7 @@ export default function SupplyDetails() {
           <small>Token Address</small>To be announced
         </li>
         <li>
-          <small>Decimals</small>6
+          <small>Decimals</small>9
         </li>
       </ul>
     </section>
