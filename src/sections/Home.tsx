@@ -40,12 +40,7 @@ export default function Home(props: { onOpenModal: Function }) {
         </li>
         <li>
           <a
-            href="#"
-            onClick={(evt) => {
-              evt.stopPropagation();
-              evt.preventDefault();
-              onOpenModal();
-            }}
+            href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Dt797BHugA7EtT8SYeTXE4Xdq6qcTx3jkBYyZ2wLtcsL&outputSymbol=SOLV&fixed=in"
           >
             <img src={jupiter} alt="Jupiter" /> Buy $SOLV
           </a>

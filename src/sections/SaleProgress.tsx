@@ -36,12 +36,7 @@ export default function SaleProgress(props: { onOpenModal: Function }) {
       <div className={style.progress}>
         <SaleProgressCircle progress={progress} circleWidth={476} />
         <a
-          href="#"
-          onClick={(evt) => {
-            evt.stopPropagation();
-            evt.preventDefault();
-            onOpenModal();
-          }}
+          href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Dt797BHugA7EtT8SYeTXE4Xdq6qcTx3jkBYyZ2wLtcsL&outputSymbol=SOLV&fixed=in"
         >
           <img src={jupiter} alt="Jupiter" /> Buy $SOLV
         </a>
