@@ -3,8 +3,7 @@ import jupiter from '../assets/jupiter-logo-1.svg';
 import React from 'react';
 import style from './home.module.css';
 
-export default function Home(props: { onOpenModal: Function }) {
-  const { onOpenModal } = props;
+export default function Home() {
   const onMoveWindowScrollTo = (evt: React.MouseEvent, hash: string) => {
     evt.stopPropagation();
     evt.preventDefault();
@@ -41,6 +40,7 @@ export default function Home(props: { onOpenModal: Function }) {
         <li>
           <a
             href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Dt797BHugA7EtT8SYeTXE4Xdq6qcTx3jkBYyZ2wLtcsL&outputSymbol=SOLV&fixed=in"
+            target="_blank"
           >
             <img src={jupiter} alt="Jupiter" /> Buy $SOLV
           </a>

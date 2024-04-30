@@ -12,8 +12,8 @@ function App() {
   const [modal, setModal] = useState(false);
   return (
     <main>
-      <Home onOpenModal={() => setModal(true)} />
-      <Presale onOpenModal={() => setModal(true)} />
+      <Home />
+      <Presale />
       <Supply />
       <Roadmap />
       <Contact />

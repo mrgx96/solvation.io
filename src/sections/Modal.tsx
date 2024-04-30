@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import style from './modal.module.css';
 
+// eslint-disable-next-line @typescript-eslint/ban-types
 export default function Modal(props: { show: boolean; onClose: Function }) {
   const { onClose, show } = props;
   const walletAddress = import.meta.env.VITE_WALLET_ADDRESS;

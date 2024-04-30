@@ -3,7 +3,7 @@ import SaleTimer from './SaleTimer';
 import salvation from '../assets/webp/salvation-1.webp';
 import style from './presale.module.css';
 
-export default function Presale(props: { onOpenModal: Function }) {
+export default function Presale() {
   return (
     <section id="presale" className={style.section}>
       <div className={style.title}>Presale is Concluded!</div>
@@ -12,7 +12,7 @@ export default function Presale(props: { onOpenModal: Function }) {
       </div>
       <div className="container">
         <SaleTimer />
-        <SaleProgress {...props} />
+        <SaleProgress />
       </div>
       <img src={salvation} alt="Salvation" />
     </section>

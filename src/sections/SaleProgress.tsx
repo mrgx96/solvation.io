@@ -4,8 +4,7 @@ import SaleDetails from './SaleDetails';
 import SaleProgressCircle from './SaleProgressCircle';
 import style from './saleProgress.module.css';
 
-export default function SaleProgress(props: { onOpenModal: Function }) {
-  const { onOpenModal } = props;
+export default function SaleProgress() {
   const [progress, setProgress] = useState(0);
   const intervals = 1; // seconds
 
@@ -37,6 +36,7 @@ export default function SaleProgress(props: { onOpenModal: Function }) {
         <SaleProgressCircle progress={progress} circleWidth={476} />
         <a
           href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Dt797BHugA7EtT8SYeTXE4Xdq6qcTx3jkBYyZ2wLtcsL&outputSymbol=SOLV&fixed=in"
+          target="_blank"
         >
           <img src={jupiter} alt="Jupiter" /> Buy $SOLV
         </a>
