@@ -52,8 +52,9 @@
 .section > ul > li > span {
   display: block;
   overflow: hidden;
-  text-overflow: ellipsis;
+  word-wrap: break-word;
   max-width: 200px;
+  font-size: 18px;
   margin: 0 auto;
 }
 
