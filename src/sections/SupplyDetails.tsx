@@ -12,7 +12,8 @@ export default function SupplyDetails() {
           <small>Token Symbol</small>$SOLV
         </li>
         <li>
-          <small>Token Address</small>Dt797BHugA7EtT8SYeTXE4Xdq6qcTx3jkBYyZ2wLtcsL
+          <small>Token Address</small>
+          <span>Dt797BHugA7EtT8SYeTXE4Xdq6qcTx3jkBYyZ2wLtcsL</span>
         </li>
         <li>
           <small>Decimals</small>9

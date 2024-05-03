@@ -49,6 +49,14 @@
   border-left: 1px dashed #876cff;
 }
 
+.section > ul > li > span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 1300px) {
   .pieChart > img {
     width: 50%;
